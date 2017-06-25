@@ -1,0 +1,85 @@
+div#player-container
+{
+	background-color:#666;
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	z-index:10000;
+	box-shadow:0px 0px 10px #ccc;
+	display:none;
+}
+
+div#player-container audio
+{
+	display:none;
+}
+
+
+div#player-container i
+{
+	height:50px;
+	color:#aaa;
+	font-size:30px;
+	line-height:50px;
+	text-shadow:1px #aaa;
+	cursor:pointer;
+}
+
+
+div#player-container #podcast-icon-container img
+{
+	max-height:50px;
+}
+
+
+div#player-container #addons-icon-container i
+{
+	font-size:20px;
+}
+
+div#player-container #volume-container i
+{
+	font-size:30px;
+}
+
+
+
+div#player-container #volume-container #volume-progress
+{
+	width:100%;
+	background-color:#aeaeae;
+	height:8px;
+	vertical-align:middle;
+	margin-top:22px;
+	cursor:pointer;
+}
+
+div#player-container #volume-container #volume-progress #volume-id-value
+{
+	height:8px;
+	vertical-align:middle;
+	cursor:pointer;
+	width:100%;
+	background-color:#fff;
+}
+
+
+
+div#player-container #podcast-bar-container #podcast-progress
+{
+	width:100%;
+	background-color:#aeaeae;
+	height:8px;
+	vertical-align:middle;
+	margin-top:6px;
+	cursor:pointer;
+}
+
+div#player-container #podcast-bar-container #podcast-progress #podcast-id-value
+{
+	height:8px;
+	vertical-align:middle;
+	cursor:pointer;
+	width:0%;
+	background-color:#fff;
+}
